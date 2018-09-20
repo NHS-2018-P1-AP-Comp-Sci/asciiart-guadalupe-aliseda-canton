@@ -17,6 +17,7 @@
 // YOUR CODE GOES HERE :)
 class ASCIIArt {
 	public static void main(String[] args) {
+		
 		System.out.print("                   ");
 		headTopBottom();
 		System.out.print("\n");
@@ -50,18 +51,27 @@ class ASCIIArt {
 		System.out.println("");
 		System.out.println("This is an eagle in ascii art!");
 	}
+	
 	public static void headTopBottom( ) {
+		
 		System.out.print("__________");
+		
 	}
+	
 	public static void middleBody() {
+		
 		System.out.println("             |           |       | ");
 		
 	}
+	
 	public static void topLeg() {
+		
 		System.out.print("||");
 		
 	}
+	
 	public static void bottomLeg() {
+		
 		System.out.print("/,,\\");
 		
 	}
