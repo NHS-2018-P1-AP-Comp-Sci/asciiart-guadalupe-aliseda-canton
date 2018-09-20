@@ -47,6 +47,8 @@ class ASCIIArt {
 		bottomLeg();
 		System.out.print(" ");
 		bottomLeg();
+		System.out.println("");
+		System.out.println("This is an eagle in ascii art!");
 	}
 	public static void headTopBottom( ) {
 		System.out.print("__________");
