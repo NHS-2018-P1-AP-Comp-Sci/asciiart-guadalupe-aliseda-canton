@@ -15,3 +15,52 @@
  */
 
 // YOUR CODE GOES HERE :)
+class ASCIIArt {
+	public static void main(String[] args) {
+		System.out.print("                   ");
+		headTopBottom();
+		System.out.print("\n");
+		System.out.println("                  /          \\");
+		System.out.println("            _____/  __        \\");
+		System.out.println("           / --    |__|       |");
+		System.out.println("           |_____             | ");
+		System.out.println("                 \\            | ");
+		System.out.print("                 |");
+		headTopBottom();
+		System.out.println(" /");
+		System.out.println("                /            \\");
+		System.out.println("               /            / \\");
+		System.out.println("              /            /   \\");
+		System.out.println("             |            /     \\");
+		middleBody();
+		middleBody();
+		middleBody();
+		System.out.println("             \\           \\       /");
+		System.out.println("              \\           \\_____/");
+		System.out.println("               \\              /");
+		System.out.print("                \\___");
+		topLeg();
+		System.out.print("___");
+		topLeg();
+		System.out.println("__/");
+		System.out.print("                   ");
+		bottomLeg();
+		System.out.print(" ");
+		bottomLeg();
+	}
+	public static void headTopBottom( ) {
+		System.out.print("__________");
+	}
+	public static void middleBody() {
+		System.out.println("             |           |       | ");
+		
+	}
+	public static void topLeg() {
+		System.out.print("||");
+		
+	}
+	public static void bottomLeg() {
+		System.out.print("/,,\\");
+		
+	}
+}
